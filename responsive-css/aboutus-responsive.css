@@ -1,0 +1,110 @@
+/* for mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    /* display responsive menu btn */
+    header .fas {
+        display: block;
+    }
+
+    /* responsive navbar */
+    header nav {
+        position: absolute;
+        top: 103px;
+        left: -100%;
+        padding: 20px 0px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        transition: all 0.3s ease;
+        z-index: 1;
+        background-color: blue;
+    }
+
+    /* little hack of responsive menu bar */
+    #click:checked ~ nav {
+        left: 0%;
+    }
+    
+    /* menu button change when user click on the button and it will show the close btn */
+    #click:checked ~ .menu-btn i::before {
+        content: "\f00d";
+    }
+    
+    /* responsive navbar anchor tag */
+    header nav a {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    /* width change of all section */
+    header, footer, .feature, .catchy-line, .wwa, .cta {
+        width: 1280px;
+    }
+}
+
+/* for laptop and small screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    /* display responsive menu btn */
+    header .fas {
+        display: block;
+    }
+
+    /* responsive navbar */
+    header nav {
+        position: absolute;
+        top: 103px;
+        left: -100%;
+        padding: 20px 0px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        transition: all 0.3s ease;
+        z-index: 1;
+        background-color: blue;
+    }
+
+    /* little hack of responsive menu bar */
+    #click:checked ~ nav {
+        left: 0%;
+    }
+    
+    /* menu button change when user click on the button and it will show the close btn */
+    #click:checked ~ .menu-btn i::before {
+        content: "\f00d";
+    }
+    
+    /* responsive navbar anchor tag */
+    header nav a {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    /* width changing of all sections */
+    header {
+        width: 1156px;
+        justify-content: space-around;
+    }
+
+    /* width changing of all sections */
+    .feature, .catchy-line, .wwa, .cta, footer {
+        width: 1156px;
+    }
+}
+
+/* for desktop and large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+    /* width changing of all sections */
+    header, .feature, .catchy-line, .wwa, .cta, footer {
+        width: 1140px;
+    }
+}

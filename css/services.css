@@ -1,0 +1,528 @@
+/* font-families */
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(../Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf)
+}
+
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: Visby-normal;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-regular.otf);
+}
+
+@font-face {
+    font-family: Visby-medium;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-medium.otf);
+}
+
+@font-face {
+    font-family: Visby-Semi-bold;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-demibold.otf);
+}
+
+@font-face {
+    font-family: Visby-bold;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-bold.otf);
+}
+
+@font-face {
+    font-family: Visby-extra-bold;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-extrabold.otf);
+}
+
+/* universal selector */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+
+/* header section */
+header {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 45px;
+    align-items: center;
+    position: relative;
+}
+
+/* font awesome icon  */
+header .fas {
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+/* navbar anchor tags */
+header nav a {
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* navbar anchor tags on hover */
+header nav a:hover {
+    font-family: Visby-Semi-bold   
+}
+
+/* quote btn */
+.default-btn {
+    position: relative;
+    width: 180px;
+    height: 44px;
+    background: #173AE5;
+    border-radius: 100px;
+    border: none;
+    font-family: Gilroy-light;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* little hack checkbox which is not display in website for responsive btn in header */
+#click {
+    display: none;
+}
+
+/* feature section */
+.feature {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+/* feature section main heading */
+.feature .col-1 .slider-container .showSlide .main-heading {
+    font-family: Visby-extra-bold;
+    font-size: 56px;
+    line-height: 78px;
+    color: #000000;
+    margin-top: 152px;
+    margin-left: 112px;
+    width: 572px;
+    height: 234px;   
+}
+
+/* feature section main para */
+.feature .col-1 .slider-container .showSlide .main-para {
+    font-family: Gilroy-light;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 112px;
+    width: 585px;
+    height: 163px;
+    padding-right: 38px;   
+    margin-top: 30px;
+}
+
+/* feature section btn */
+.feature .col-1 .feature-btn button {
+    margin-left: 112px;
+    margin-top: 60px;
+    width: 260px;
+    height: 50px;
+    font-family: Gilroy-light;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* feature section arrows container */
+.feature .col-1 .arrows {
+    margin-left: 112px;
+    margin-top: 88px;
+    text-align: left;
+}
+
+/* feature arrows */
+.feature .col-1 .arrows .fa-solid {
+    background: #173AE5;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+/* feature img */
+.feature .col-2 img {
+    max-width: 100%;
+    height: auto;
+    padding-right: 30px;
+}
+
+/* catchy line section */
+.catchy-line {
+    background-image: linear-gradient(30deg, #000B43e6, #2B55C5cc), url("../images/digital-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 55px;
+    mix-blend-mode: hard-light;
+    padding: 50px 149px;
+}
+
+/* .catchy-line main heading */
+.catchy-line .main-heading {
+    font-family: Visby-Semi-bold;
+    font-size: 28px;
+    line-height: 78px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* catchy line main para */
+.catchy-line .main-para {
+    font-family: Visby-medium;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+/* services section line */
+.line {
+    width: 68px;
+    height: 3px;
+    background: #173AE5;
+}
+
+/* services main heading */
+.main-heading {
+    font-family: Visby-bold;
+    font-size: 36px;
+    line-height: 78px;
+    color: #000000;   
+}
+
+.services {
+    background: url(../images/Mask\ group.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* services main para */
+.services-para {
+    font-family: Gilroy-light;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    opacity: 0.75;
+    width: 645px;
+}
+
+/* service section card para */
+.main-para {
+    font-family: Visby-medium;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.75;  
+}
+
+/* service section btn (See Portfolio btn) */
+.services-btn {
+    width: 180px;
+    height: 44px;
+    border-radius: 100px;
+    background: #173AE5;
+    border: none;
+    font-family: Gilroy-light;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* line alignment in service section */
+.line-align {
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+/* main heading align in service section */
+.main-heading-align {
+    text-align: center;
+}
+
+/* main para align in service section */
+.services-para-align {
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* designing of left and right card */
+.left-card, .right-card {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F4F7FF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    width: 1170px;
+    height: 568px;
+    gap: 100px;
+}
+
+/* designing of left and right card on hover */
+.left-card:hover, .right-card:hover {
+    background-color: #173AE5;
+}
+
+/* designing of left and right card main heading on hover */
+.left-card:hover .main-heading, .right-card:hover .main-heading {
+    color: #ffffff;
+}
+
+/* designing of left and right card main para on hover */
+.left-card:hover .main-para, .right-card:hover .main-para {
+    color: #ffffff;
+}
+
+/* designing of left and right card service btn on hover */
+.left-card:hover .services-btn, .right-card:hover .services-btn {
+    color: #173AE5;
+    background-color: #ffffff;
+}
+
+/* card img responsive */
+.left-card img, .right-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* card alignment */
+.card-align {
+    margin: 100px auto 50px auto;
+    padding: 0px 50px;
+}
+
+/* service btn align */
+.services-btn-align {
+    margin-top: 50px;
+}
+
+/* cta section */
+.cta {
+    background-image: linear-gradient(30deg, #000B43e6, #2B55C5cc), url(../images/cta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    mix-blend-mode: hard-light;
+    padding: 100px;
+}
+
+/* cta heading */
+.cta-heading {
+    font-family: Visby-normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;   
+}
+
+/* cta subscribe title */
+.cta-subscribe {
+    font-family: Gilroy-light;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;   
+}
+
+/* cta subscribe title alignment */
+.cta-subscribe-align {
+    margin-top: 45px;
+}
+
+/* form */
+.form {
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* email input */
+.form input[type="email"] {
+    width: 400px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+    padding: 11px 0px;
+    padding-left: 22px;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* submit input */
+.form input[type="submit"] {
+    width: 144px;
+    height: 39px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: -152px;
+}
+
+/* footer section */
+footer {
+    background: #F4F7FF;
+    padding-top: 110.11px;
+    margin-top: 100px;
+}
+
+/* footer para */
+.footer-para {
+    width: 317px;
+    height: 79px;
+    font-family: Gilroy-light;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.75;
+}
+
+/* page menu li */
+.page-menu {
+    list-style: none;
+    width: 90px;
+    height: 204px;
+}
+
+/* page menu li a */
+.page-menu li a {
+    text-decoration: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;   
+}
+
+/* terms menu */
+.terms-menu {
+    list-style: none;
+    width: 155px;
+    height: 160px;
+}
+
+/* terms menu li a */
+.terms-menu li a {
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 28.08px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* info menu */
+.info-menu {
+    list-style: none;
+    width: 229px;
+    height: 166px;
+}
+
+/* info menu li a */
+.info-menu li, .info-menu li a {
+    text-decoration: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+/* social icons */
+.fa-brands {
+    color: #173AE5;
+}
+
+/* copyright text */
+.copyright-text {
+    font-family: Gilroy-light;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a1a1a;
+    opacity: 0.75;   
+}
+
+/* arrow up icon */
+.fa-arrow-up {
+    background: #173AE5;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+/* footer row 1 align */
+footer .row-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer para margin from top */
+.footer-para-margin {
+    margin-top: 55px;
+}
+
+/* page menu, terms menu, info menu li margin from top and bottom */
+.page-menu li, .terms-menu li, .info-menu li {
+    margin: 11px 0px;
+}
+
+/* footer row 2 align */
+footer .row-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 14.21px;
+    padding-bottom: 24.79px;
+}
+
+/* footer row 2 col 1 align from left */
+footer .row-2 .col-1 {
+    margin-left: -152px;
+}
+
+/* footer row 2 col-1 icon align */
+footer .row-2 .col-1 i {
+    margin: 0px 10px;
+}
+
+/* thematic break */
+hr {
+    width: 1140px;
+    height: 2px;
+    color: #ffffff;
+    margin: 0px auto;
+    margin-top: 58px;
+}

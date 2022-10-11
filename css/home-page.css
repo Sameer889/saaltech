@@ -1,0 +1,958 @@
+/* font-families */
+@font-face {
+    font-family: Gilroy-bold;
+    src: url(../Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf)
+}
+
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: Visby-normal;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-regular.otf);
+}
+
+@font-face {
+    font-family: Visby-medium;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-medium.otf);
+}
+
+@font-face {
+    font-family: Visby-Semi-bold;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-demibold.otf);
+}
+
+@font-face {
+    font-family: Visby-bold;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-bold.otf);
+}
+
+@font-face {
+    font-family: Visby-extra-bold;
+    src: url(../Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-extrabold.otf);
+}
+
+/* universal selector */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+
+/* header section */
+header {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 45px;
+    align-items: center;
+    position: relative;
+}
+
+/* font awesome icon  */
+header .fas {
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+/* navbar anchor tags */
+header nav a {
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* navbar anchor tags on hover */
+header nav a:hover {
+    font-family: Visby-Semi-bold   
+}
+
+/* quote btn */
+.default-btn {
+    position: relative;
+    width: 180px;
+    height: 44px;
+    background: #173AE5;
+    border-radius: 100px;
+    border: none;
+    font-family: Gilroy-light;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* little hack checkbox which is not display in website for responsive btn in header */
+#click {
+    display: none;
+}
+
+/* feature section */
+.feature {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+/* feature section main heading */
+.feature .col-1 .slider-container .showSlide .main-heading {
+    font-family: Visby-extra-bold;
+    font-size: 56px;
+    line-height: 78px;
+    color: #000000;
+    margin-top: 152px;
+    margin-left: 112px;
+    width: 572px;
+    height: 234px;   
+}
+
+/* feature section main para */
+.feature .col-1 .slider-container .showSlide .main-para {
+    font-family: Gilroy-light;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 112px;
+    width: 585px;
+    height: 163px;
+    padding-right: 38px;   
+    margin-top: 30px;
+}
+
+/* feature section btn */
+.feature .col-1 .feature-btn button {
+    margin-left: 112px;
+    margin-top: 60px;
+    width: 260px;
+    height: 50px;
+    font-family: Gilroy-light;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* feature section arrows container */
+.feature .col-1 .arrows {
+    margin-left: 112px;
+    margin-top: 88px;
+    text-align: left;
+}
+
+/* feature arrows */
+.feature .col-1 .arrows .fa-solid {
+    background: #173AE5;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+/* feature img */
+.feature .col-2 img {
+    max-width: 100%;
+    height: auto;
+    padding-right: 30px;
+}
+
+/* catchy line section */
+.catchy-line {
+    background-image: linear-gradient(30deg, #000B43e6, #2B55C5cc), url("../images/digital-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 55px;
+    mix-blend-mode: hard-light;
+    padding: 50px 149px;
+}
+
+/* .catchy-line main heading */
+.catchy-line .main-heading {
+    font-family: Visby-Semi-bold;
+    font-size: 28px;
+    line-height: 78px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* catchy line main para */
+.catchy-line .main-para {
+    font-family: Visby-medium;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+/* about us section */
+.about-us {
+    background-image: url(../images/patterns.png);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* about us section line */
+.about-us .col-1 .line {
+    width: 68px;
+    height: 3px;
+    background-color: #173AE5;
+    margin-top: 100px;
+    margin-left: 112px;
+}
+
+/* about us section main heading */
+.about-us .col-1 .main-heading {
+    font-family: Visby-bold;
+    font-size: 36px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;
+    margin-left: -236px;
+    margin-top: 25px;
+}
+
+/* about us content container */
+.about-us .col-1 .content {
+    width: 578px;
+    height: 351px;
+    margin-left: 112px;
+}
+
+/* about us content main para */
+.about-us .col-1 .content .main-para {
+    font-family: Visby-medium;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;   
+}
+
+/* para 2 for margin from the top */
+.about-us .col-1 .content .main-para-2 {
+    margin-top: 30px;
+}
+
+/* about us btn */
+.about-us .col-1 .about-us-btn button {
+    margin-top: 50px;
+    margin-left: 112px;
+}
+
+/* about us main image  */
+.about-us .col-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* services section */
+.services {
+    background: #F4F7FF;
+    margin-top: 111px;
+}
+
+/* services patterns container */
+.services .bg-patterns {
+    display: flex;
+    z-index: -1;
+}
+
+/* services parent container */
+.services .parent-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -512px;
+    z-index: 1;
+    padding-bottom: 88px;
+}
+
+/* services parent container column 2 */
+.services .parent-container .col-2 {
+    margin-left: 89px;
+    margin-right: 50px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+}
+
+/* services section service btn container */
+.services .parent-container .col-2 .services-btn {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+/* services section line design */
+.services .parent-container .col-2 .line {
+    width: 68px;
+    height: 3px;
+    background-color: #173AE5;
+}
+
+/* services responsive img setting */
+.services .bg-patterns img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* second pattern position goes to left side */
+.services .bg-patterns .pattern-2 {
+    position: absolute;
+    left: 0;
+}
+
+/* services column 1 setting */
+.services .parent-container .col-1 {
+    display: flex;
+    margin-left: 112px;
+    z-index: 2;
+}
+
+/* services column 1 (col img 1) give margin from top on negative */
+.services .col-1 .col-img-1 {
+    margin-top: -40px;
+}
+
+/* services col 1 (img col 1) cards */
+.services .col-1 .col-img-1 .card {
+    background: #ffffff;
+    width: 274px;
+    height: 274px;
+    padding: 20px 10px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+/* services col 1 (img col 1) cards on hover */
+.services .col-1 .col-img-1 .card:hover {
+    background-color: #173AE5;
+}
+
+/* services col 1 (img col 1) cards para on hover */
+.services .col-1 .col-img-1 .card:hover .content p {
+    color: white;
+} 
+
+/* services col 1 (img col 1) cards icon on hover */
+.services .col-1 .col-img-1 .card:hover .content i {
+    color: #173AE5;
+    background-color: #ffffff;
+}
+
+/* card img responsiveness */
+.services .col-1 .col-img-1 .card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+/* card content */
+.services .col-1 .col-img-1 .card .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* card content heading */
+.services .col-1 .col-img-1 .card .content p {
+    font-family: Gilroy-bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #173AE5;   
+}
+
+/* card content icon */
+.services .col-1 .col-img-1 .card .content i {
+    background: #173AE5;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+/* services col 1 (img col 2) cards */
+.services .col-1 .col-img-2 .card {
+    background: #ffffff;
+    width: 274px;
+    height: 274px;
+    padding: 20px 10px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+/* services col 1 (img col 2) cards on hover */
+.services .col-1 .col-img-2 .card:hover {
+    background-color: #173AE5;
+}
+
+/* services col 1 (img col 2) cards para on hover */
+.services .col-1 .col-img-2 .card:hover .content p {
+    color: white;
+} 
+
+/* services col 1 (img col 2) cards icon on hover */
+.services .col-1 .col-img-2 .card:hover .content i {
+    color: #173AE5;
+    background-color: #ffffff;
+}
+
+/* card img responsiveness */
+.services .col-1 .col-img-2 .card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+/* card content */
+.services .col-1 .col-img-2 .card .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* card content heading */
+.services .col-1 .col-img-2 .card .content p {
+    font-family: Gilroy-bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #173AE5;   
+}
+
+/* card content icon */
+.services .col-1 .col-img-2 .card .content i {
+    background: #173AE5;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+/* services section main heading */
+.services .col-2 .main-heading {
+    font-family: Visby-bold;
+    font-size: 36px;
+    line-height: 78px;
+    text-align: left;
+    color: #000000;
+}
+
+/* services section main paragraphs */
+.services .col-2 .content .main-para {
+    font-family: Visby-medium;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+/* services section main para-2 margin from the top */
+.services .col-2 .content .main-para-2 {
+    margin-top: 30px;
+}
+
+/* expert section */
+.expert {
+    background-image: url(../images/patterns.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* expert team slide container */
+.expert-slide {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+/* expert card design */
+.expert-card {
+    width: 232.26px;
+    height: 298.65px;
+}
+
+/* expert card content design  */
+.expert-card .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* expert card bg color and design */
+.expert-card .bg-card {
+    width: 231.24px;
+    height: 231.24px;
+    background-color: #F4F7FF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+/* changing the bg color on hover */
+.expert-card .bg-card:hover {
+    background-color: #173AE5;
+}
+
+/* bg-card img */
+.expert-card .bg-card img {
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+/* expert card content spacing */
+.expert-card .content {
+    margin-top: -15px;
+}
+
+/* main card spacing */
+.main-card {
+    margin-bottom: 65px;
+}
+
+/* main card bg color setting */
+.main-card .bg-card {
+    width: 231.24px;
+    height: 309.24px;
+    background-color: #F4F7FF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+/* title styling */
+.title {
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 60px;
+    color: #181818;   
+}
+
+/* sub-title styling */
+.sub-title {
+    font-family: Gilroy-light;
+    font-size: 16px;
+    line-height: 27px;
+    color: #181818;
+}
+
+/* font icon styling */
+.expert-card .content i {
+    background: #173AE5;
+    padding: 6px;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    margin: 0px 6px;
+    cursor: pointer;
+    margin-left: 96px;
+}
+
+/* main heading styling */
+.main-heading {
+    font-family: Visby-bold;
+    font-size: 36px;
+    line-height: 78px;
+}
+
+/* expert heading styling */
+.expert-heading {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* line styling */
+.line {
+    width: 68px;
+    height: 3px;
+    background-color: #173AE5;
+}
+
+/* line alignment */
+.expert-line {
+    margin: 0px auto;
+    margin-top: 88px;
+}
+
+/* btn styling on expert section */
+.expert-btn {
+    display: block;
+    margin: 60px auto;
+}
+
+/* testimonial section */
+.testimonial {
+    background: #F4F7FF;
+    padding: 100px 0px;
+}
+
+/* line */
+.testimonial-line {
+    margin: 0px auto;
+    margin-top: -620px;
+    position: relative;
+    z-index: 1;
+}
+
+/* main heading of .testimonial section */
+.testimonial-heading {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* client review styling */
+.client-review {
+    background-color: #ffffff;
+    padding: 30px 30px 80px 30px;
+    border-radius: 20px;
+    width: 909px;
+    height: 355px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* client review icon */
+.client-review i {
+    color: #173AE5;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    display: block;
+}
+
+/* client review para */
+.client-review p {
+    font-family: Visby-medium;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #181818;  
+    width: 764px;
+    margin: 0px auto;
+    margin-top: 20px; 
+}
+
+/* slider content design */
+.slider .content {
+    margin: 0px auto;
+    text-align: center;
+    margin-top: -90px;
+}
+
+/* arrows icons */
+.arrows {
+    text-align: center;
+    margin-top: 54px;
+}
+
+/* client name design */
+.client-name {
+    font-family: Visby-medium;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    color: #181818;
+    margin-top: 16px;   
+}
+
+/* client-title design */
+.client-title {
+    font-family: Visby-medium;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+/* client title link without decoration */
+.client-title a {
+    text-decoration: none;
+}
+
+/* .testimonial section arrows  */
+.testimonial .arrows i {
+    background: #173AE5;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+/* testimonial section bg patterns */
+.testimonial .bg-patterns {
+    display: flex;
+    z-index: -1;
+}
+
+/* testimonial bg patterns image responsive */
+.testimonial .bg-patterns img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* testimonial bg patterns image 2 position set to left responsive */
+.testimonial .bg-patterns .pattern-2 {
+    position: absolute;
+    left: 0;
+}
+
+/* .testimonial slider container */
+.testimonial .slider-container {
+    position: relative;
+    z-index: 1;
+}
+
+/* map section */
+.map {
+    background: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+/* map section img style */
+.map img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 79px;
+    margin-bottom: 65px;
+}
+
+/* cta section */
+.cta {
+    background-image: linear-gradient(30deg, #000B43e6, #2B55C5cc), url(../images/cta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    mix-blend-mode: hard-light;
+    padding: 100px;
+}
+
+/* cta heading */
+.cta-heading {
+    font-family: Visby-normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;   
+}
+
+/* cta subscribe title */
+.cta-subscribe {
+    font-family: Gilroy-light;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;   
+}
+
+/* cta subscribe title alignment */
+.cta-subscribe-align {
+    margin-top: 45px;
+}
+
+/* form */
+.form {
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* email input */
+.form input[type="email"] {
+    width: 400px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+    padding: 11px 0px;
+    padding-left: 22px;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* submit input */
+.form input[type="submit"] {
+    width: 144px;
+    height: 39px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: -152px;
+}
+
+/* footer section */
+footer {
+    background: #F4F7FF;
+    padding-top: 110.11px;
+    margin-top: 100px;
+}
+
+/* footer para */
+.footer-para {
+    width: 317px;
+    height: 79px;
+    font-family: Gilroy-light;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.75;
+}
+
+/* page menu li */
+.page-menu {
+    list-style: none;
+    width: 90px;
+    height: 204px;
+}
+
+/* page menu li a */
+.page-menu li a {
+    text-decoration: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;   
+}
+
+/* terms menu */
+.terms-menu {
+    list-style: none;
+    width: 155px;
+    height: 160px;
+}
+
+/* terms menu li a */
+.terms-menu li a {
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 28.08px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* info menu */
+.info-menu {
+    list-style: none;
+    width: 229px;
+    height: 166px;
+}
+
+/* info menu li a */
+.info-menu li, .info-menu li a {
+    text-decoration: none;
+    font-family: Visby-normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+/* social icons */
+.fa-brands {
+    color: #173AE5;
+}
+
+/* copyright text */
+.copyright-text {
+    font-family: Gilroy-light;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a1a1a;
+    opacity: 0.75;   
+}
+
+/* arrow up icon */
+.fa-arrow-up {
+    background: #173AE5;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+/* footer row 1 align */
+footer .row-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer para margin from top */
+.footer-para-margin {
+    margin-top: 55px;
+}
+
+/* page menu, terms menu, info menu li margin from top and bottom */
+.page-menu li, .terms-menu li, .info-menu li {
+    margin: 11px 0px;
+}
+
+/* footer row 2 align */
+footer .row-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 14.21px;
+    padding-bottom: 24.79px;
+}
+
+/* footer row 2 col 1 align from left */
+footer .row-2 .col-1 {
+    margin-left: -152px;
+}
+
+/* footer row 2 col-1 icon align */
+footer .row-2 .col-1 i {
+    margin: 0px 10px;
+}
+
+/* thematic break */
+hr {
+    width: 1140px;
+    height: 2px;
+    color: #ffffff;
+    margin: 0px auto;
+    margin-top: 58px;
+}
